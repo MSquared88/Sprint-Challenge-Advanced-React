@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Image, Icon } from 'semantic-ui-react'
 import picture from '../jeffrey-f-lin-r3V5-rfFErY-unsplash.jpg'
 
+
 function PlayerCard(props) {
 	let searchStr = props.player.name.replace(/\s+/g, '_') 
 	
@@ -17,7 +18,7 @@ function PlayerCard(props) {
 				<Card.Content extra>
 					<a 
 					href= {`https://en.wikipedia.org/wiki/${searchStr}`}
-					style= {{fontWeight: '600', color: 'black'}}
+					style= {{fontWeight: '600'}}
 					>
 						wikipedia Link
 					</a>

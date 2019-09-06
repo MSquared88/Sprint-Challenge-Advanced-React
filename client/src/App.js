@@ -4,8 +4,12 @@ import axios from 'axios'
 
 //components
 import PlayerCard from './components/PlayerCards'
+import DarkModeBtn from './components/DarkModeBtn'
 
-import { Header, Card, } from 'semantic-ui-react'
+//styles
+import {  Card, Checkbox } from 'semantic-ui-react'
+import { Jumbotron, Button } from 'reactstrap';
+
 
 class App extends React.Component {
   constructor(){
@@ -29,7 +33,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header as='h1'>First Header</Header>
+        <Jumbotron>
+          <h1 className="display-3">United States women's national soccer team</h1>
+          <hr className="my-2" />
+          <p className="display-3">Dark Mode</p>
+          <DarkModeBtn/>    
+        </Jumbotron>
         <Card.Group itemsPerRow={6}>
          {this.state.players.map(player => {
            return(
