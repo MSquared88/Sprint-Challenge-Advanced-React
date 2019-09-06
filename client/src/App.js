@@ -33,7 +33,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Jumbotron>
+        <Jumbotron style= {{background: 'linear-gradient(red, white, blue)'}}>
           <h1 className="display-3">United States women's national soccer team</h1>
           <hr className="my-2" />
           <p className="display-3">Dark Mode</p>

@@ -42,7 +42,7 @@ It allows us to DRY up our code and to have stateful logic in out app.
 - [ ] Why is it important to test our apps?
 
 1: Because it allows us to trust our code.
-2: Find bugs Quicker and easier.
+2: Find bugs quicker and easier.
 
 ## Project Set Up
 
