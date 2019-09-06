@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.dark-mode {
+  color: #fff !important;
+  background-color: #313843 !important ;
+}
+.header-dark-mode {
+  color: #fff;
+  background: black !important ;
+}
+
+.header-dark-mode hr {
+  background: white;
 }
