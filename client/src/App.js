@@ -3,11 +3,11 @@ import './App.css';
 import axios from 'axios'
 
 //components
-import PlayerCard from './components/PlayerCards'
-import DarkModeBtn from './components/DarkModeBtn'
+import PlayerCard from './components/PlayerCards';
+import DarkModeBtn from './components/DarkModeBtn';
 
 //styles
-import {  Card, Checkbox } from 'semantic-ui-react'
+import {  Card, Checkbox } from 'semantic-ui-react';
 import { Jumbotron, Button } from 'reactstrap';
 
 

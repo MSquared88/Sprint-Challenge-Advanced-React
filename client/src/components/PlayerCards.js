@@ -2,10 +2,13 @@ import React from 'react'
 import { Card, Image, Icon } from 'semantic-ui-react'
 import picture from '../jeffrey-f-lin-r3V5-rfFErY-unsplash.jpg'
 
+export const replaceSpace = (str) => {
+	return str.replace(/\s+/g, '_') 
+}
 
 function PlayerCard(props) {
-	let searchStr = props.player.name.replace(/\s+/g, '_') 
-	
+
+	let searchStr = replaceSpace(props.player.name)
 	return(
 		<Card>
 			<Image src= {picture}/>

@@ -23,5 +23,6 @@ code {
 }
 
 .header-dark-mode hr {
-  color: white;
+  background: white;
 }
+
